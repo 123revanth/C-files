@@ -14,6 +14,7 @@ int main(){
     
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
+
             scanf("%d", &first[i][j]);
         }
     }
@@ -75,9 +76,11 @@ int main(){
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
             printf("%d ", second[i][j]);
+
         }
         printf("\n");
     }
+
 
     printf("The included third side \n");
 
@@ -93,9 +96,11 @@ int main(){
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
             printf("%d ", fourth[i][j]);
+
         }
         printf("\n");
     }
+
 
     printf("The included fifth side \n");
 
@@ -104,13 +109,16 @@ int main(){
             printf("%d ", fifth[i][j]);
         }
         printf("\n");
+
     }
 
     printf("The included sixth side \n");
 
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
+
             printf("%d ", sixth[i][j]);
+
         }
         printf("\n");
     }
