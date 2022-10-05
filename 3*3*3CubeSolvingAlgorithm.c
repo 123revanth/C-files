@@ -3,13 +3,18 @@
 
 int main(){
 
-    int sideone [3][3] = {{0, 0, 0}, {0, 0 , 0}, {0, 0, 0}};
+    int first [3][3] = {{0, 0, 0}, {0, 0 , 0}, {0, 0, 0}};
+    int second [3][3] = {{0, 0, 0}, {0, 0 , 0}, {0, 0, 0}};
+    int third [3][3] = {{0, 0, 0}, {0, 0 , 0}, {0, 0, 0}};
+    int fourth [3][3] = {{0, 0, 0}, {0, 0 , 0}, {0, 0, 0}};
+    int fifth [3][3] = {{0, 0, 0}, {0, 0 , 0}, {0, 0, 0}};
+    int sixth [3][3] = {{0, 0, 0}, {0, 0 , 0}, {0, 0, 0}};
 
     printf("include the first side");
     
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
-            scanf("%d", &sideone[i][j]);
+            scanf("%d", &first[i][j]);
         }
     }
 
@@ -18,7 +23,7 @@ int main(){
     
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
-            scanf("%d", &sideone[i][j]);
+            scanf("%d", &second[i][j]);
         }
     }
 
@@ -27,7 +32,7 @@ int main(){
     
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
-            scanf("%d", &sideone[i][j]);
+            scanf("%d", &third[i][j]);
         }
     }
 
@@ -36,7 +41,7 @@ int main(){
     
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
-            scanf("%d", &sideone[i][j]);
+            scanf("%d", &fourth[i][j]);
         }
     }
 
@@ -44,7 +49,7 @@ int main(){
     
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
-            scanf("%d", &sideone[i][j]);
+            scanf("%d", &fifth[i][j]);
         }
     }
 
@@ -52,7 +57,7 @@ int main(){
     
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
-            scanf("%d", &sideone[i][j]);
+            scanf("%d", &sixth[i][j]);
         }
     }
 
@@ -60,7 +65,7 @@ int main(){
 
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
-            printf("%d ", sideone[i][j]);
+            printf("%d ", first[i][j]);
         }
         printf("\n");
     }
@@ -69,7 +74,7 @@ int main(){
 
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
-            printf("%d ", sideone[i][j]);
+            printf("%d ", second[i][j]);
         }
         printf("\n");
     }
@@ -78,7 +83,7 @@ int main(){
 
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
-            printf("%d ", sideone[i][j]);
+            printf("%d ", third[i][j]);
         }
         printf("\n");
     }
@@ -87,7 +92,7 @@ int main(){
 
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
-            printf("%d ", sideone[i][j]);
+            printf("%d ", fourth[i][j]);
         }
         printf("\n");
     }
@@ -96,7 +101,7 @@ int main(){
 
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
-            printf("%d ", sideone[i][j]);
+            printf("%d ", fifth[i][j]);
         }
         printf("\n");
     }
@@ -105,7 +110,7 @@ int main(){
 
     for(int i = 0; i <= 2; i++){
         for(int j = 0; j <= 2; j++){
-            printf("%d ", sideone[i][j]);
+            printf("%d ", sixth[i][j]);
         }
         printf("\n");
     }
